@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(morgan('dev'))
 
 
-app.use("api/v1/auth",authRoutes)
+app.use("/api/v1/auth",authRoutes)
 
 app.get('/',(req,res)=> {
     res.send('<h1>Welcome to e-commerce website</h1>')
