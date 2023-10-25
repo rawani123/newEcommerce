@@ -1,21 +1,21 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Policy from "./pages/Policy";
-import Pagenotfound from "./pages/Pagenotfound";
-import Register from "./pages/Auth/Register";
-import Login from "./pages/Auth/Login";
-import Dashboard from "./pages/user/Dashboard";
-import PrivateRoute from "./components/Routes/Private";
-import ForgotPasssword from "./pages/Auth/ForgotPasssword";
-import AdminRoute from "./components/Routes/AdminRoute";
-import AdminDashboard from "./pages/Admin/AdminDashboard";
-import CreateCategory from "./pages/Admin/CreateCategory";
-import CreateProduct from "./pages/Admin/CreateProduct";
-import Users from "./pages/Admin/Users";
-import Orders from "./pages/user/Orders";
-import Profile from "./pages/user/Profile";
+import HomePage from "./pages/HomePage.js";
+import About from "./pages/About.js";
+import Contact from "./pages/Contact.js";
+import Policy from "./pages/Policy.js";
+import Pagenotfound from "./pages/Pagenotfound.js";
+import Register from "./pages/Auth/Register.js";
+import Login from "./pages/Auth/Login.js";
+import Dashboard from "./pages/user/Dashboard.js";
+import PrivateRoute from "./components/Routes/Private.js";
+import ForgotPasssword from "./pages/Auth/ForgotPasssword.js";
+import AdminRoute from "./components/Routes/AdminRoute.js";
+import AdminDashboard from "./pages/Admin/AdminDashboard.js";
+import CreateCategory from "./pages/Admin/CreateCategory.js";
+import CreateProduct from "./pages/Admin/CreateProduct.js";
+import Users from "./pages/Admin/Users.js";
+import Orders from "./pages/user/Orders.js";
+import Profile from "./pages/user/Profile.js";
 function App() {
   return (
     <>
