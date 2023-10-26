@@ -5,6 +5,7 @@ import App from "./App.js";
 import reportWebVitals from "./reportWebVitals.js";
 import { BrowserRouter } from "react-router-dom";
 import { AuthProvider } from "./context/auth.js";
+// import "antd/dist/reset.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

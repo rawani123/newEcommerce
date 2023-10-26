@@ -137,7 +137,7 @@ export const forgetPasswordController= async (req,res)=>{
     } catch (error) {
         console.log(error);
         res.status(200).send({
-            message:"something went wrong",
+            message:"Something Went Wrong",
             success:false,
             error
         })
